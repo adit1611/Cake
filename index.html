@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: 'Rubik Bubbles';font-size: 15px;color:palevioletred;">Cake🎂& Love💑</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./cake/cc14.jpg"  >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./common.js" defer></script>
+</head>
+<body>
+            <!-- cart & login -->
+            <div class="work">
+                <button  id="wcart" onclick="addcart()"><span id="cart"><i class="fa-solid fa-cart-shopping fa-beat fa-l" style="color: #1779c4;"></i>&nbsp;&nbsp;&nbsp;Cart</span></button>
+                <button id="userid" onclick="userid()" ><span id="user"><i class="fa-solid fa-arrow-right-to-bracket fa-bounce" style="color: #c84114;"></i>&nbsp;&nbsp;Login/Register</span></button>
+                <button id="userid2" onclick="userid1()" style="position: absolute;margin-left: 220px;display: none; "><span id = "user1"><i class="fa-solid fa-arrow-right-from-bracket fa-beat-fade" style="color: #df0c72;"></i>&nbsp&nbsp   <span style = "margin-left : 5px;">Logout</span></span></button>
+             </div>
+    <header>
+
+    <nav>
+        <ul id="left">
+            <li onclick="addBorder(this)" class="clicked"><a href="./index.html">Dairy</a></li>
+            <li onclick="addBorder(this)"><a href="./menu.html">Menu</a></li>
+            <li onclick="addBorder(this)"><a href="#">Gifts</a></li>
+        </ul>
+        <section class="image">
+            <img src="./cake/cake-_-love-removebg-preview.png" alt="logo">
+        </section>
+        <ul id="right">
+            <li onclick="addBorder(this)"><a href="#">Order</a></li>
+            <li onclick="addBorder(this)"><a href="#">Contact</a></li>
+            <li onclick="addBorder(this)"><a href="#">About</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="frame">
+            <img id="img1" src="./cake/Welcome.jpg" alt="welcome">
+            <img id="img2" src="./cake/discount-banner.jpeg" alt="discount-banner">
+            <img id="img3" src="./cake/summer-sale.jpeg" alt="summer-sale">
+        </div>
+        <div class="center">
+            <input type="radio" id="check-1" name="rd"/>
+            <label class="circle" for="check-1" id="c1"></label>
+            <input type="radio" id="check-2" name="rd"/>
+            <label class="circle" for="check-2" id="c2"></label>
+            <input type="radio" id="check-3" name="rd"/>
+            <label class="circle" for="check-3" id="c3"></label>
+            </div>
+    </section>
+         <hr style="height: 2px;background-color: #c84114;">
+    <main >
+        <h1 id="story">Fun-Zone:Stories</h1>
+        <button  onclick="fun()" id="storybtn">Add your story</button>
+      <div class="story" id="fun">
+    
+        <div class="left">
+            <img src="./cake/c11.jpg" alt="delight">
+            <div class="storyl">
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione, ea quae autem voluptas, repudiandae cum quia placeat expedita minima nobis hic nam quod, sed iusto eum quaerat eaque sapiente!</p>
+             <h3>By ABC</h3>
+            </div>
+    </div>
+    <div class="right">
+     <img src="./cake/c00.jpg" alt="comp">
+     <div class="storyr">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione, ea quae autem voluptas, repudiandae cum quia placeat expedita minima nobis hic nam quod, sed iusto eum quaerat eaque sapiente!</p>
+         <h3>By ABC</h3>
+        </div>
+    </div>
+    <div class="left">
+     <img src="./cake/c7.jpg" alt="love">
+     <div class="storyl">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione, ea quae autem voluptas, repudiandae cum quia placeat expedita minima nobis hic nam quod, sed iusto eum quaerat eaque sapiente!</p>
+         <h3>By ABC</h3>
+        </div>
+    </div>
+    <div class="right">
+     <img src="./cake/c5.jpg" alt="birth">
+     <div class="storyr">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ratione, ea quae autem voluptas, repudiandae cum quia placeat expedita minima nobis hic nam quod, sed iusto eum quaerat eaque sapiente!</p>
+         <h3>By ABC</h3>
+        </div>
+    </div>
+     <video id="video" autoplay muted loop>
+            <!-- Replace 'your-video.mp4' with the path to your video file -->
+            <source src="./cake/funny.mp4" type="video/mp4">
+      </div>
+    </main>
+</body>
+</html>

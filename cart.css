@@ -1,0 +1,5 @@
+nav ul li:hover{
+    border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    border-image-slice: 1;
+    border-radius: 10px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: 'Rubik Bubbles';font-size: 15px;color:palevioletred;">Cake🎂& Love💑-Menu</title>
+    
+    <link rel="icon" href="./cake/cc14.jpg"  >
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="./common.js" defer></script>
+    <script type="module" src="./cart.js" defer></script>
+    <!-- <script type = "module" src="./menu.js"></script> -->
+</head>
+<body>
+                <!-- cart & login -->
+                <div class="work" style="margin-top: -10px;">
+                    <button  id="wcart" onclick="addcart()"><span id="cart"><i class="fa-solid fa-cart-shopping fa-beat fa-l" style="color: #1779c4;"></i></span>&nbsp;&nbsp;&nbsp;<a href="./cart.html">Cart</a></button>
+                    <button id="userid" onclick="userid()"><span id="user"><i class="fa-solid fa-arrow-right-to-bracket fa-bounce" style="color: #c84114;"></i></span>&nbsp;&nbsp;Login/Register</button>
+                    <button id="userid2" onclick="userid1()" style="position: absolute;margin-left: 220px;display: none; "><span id = "user1"><i class="fa-solid fa-arrow-right-from-bracket fa-beat-fade" style="color: #df0c72;"></i>&nbsp&nbsp   <span style = "margin-left : 5px;">Logout</span></span></button>
+                 </div>
+        <header>
+    
+        <nav>
+            <ul id="left">
+                <li onclick="addBorder()"><a href="./index.html">Dairy</a></li>
+                <li onclick="addBorder()"><a href="./menu.html">Menu</a></li>
+                <li onclick="addBorder()"><a href="#">Gifts</a></li>
+            </ul>
+            <section class="image">
+                <img src="./cake/cake-_-love-removebg-preview.png" alt="logo">
+            </section>
+            <ul id="right">
+                <li onclick="addBorder()"><a href="#">Order</a></li>
+                <li onclick="addBorder()"><a href="#">Contact</a></li>
+                <li onclick="addBorder()"><a href="#">About</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <div class="frame">
+                <img id="img1" src="./cake/Welcome.jpg" alt="welcome">
+                <img id="img2" src="./cake/discount-banner.jpeg" alt="discount-banner">
+                <img id="img3" src="./cake/summer-sale.jpeg" alt="summer-sale">
+            </div>
+            <div class="center">
+                <input type="radio" id="check-1" name="rd"/>
+                <label class="circle" for="check-1" id="c1"></label>
+                <input type="radio" id="check-2" name="rd"/>
+                <label class="circle" for="check-2" id="c2"></label>
+                <input type="radio" id="check-3" name="rd"/>
+                <label class="circle" for="check-3" id="c3"></label>
+                </div>
+        </section>
+             <!-- <hr style="height: 2px;background-color: #c84114;">         -->
+              <video id="cartv" autoplay muted loop >
+            <!-- Replace 'your-video.mp4' with the path to your video file -->
+            <source src="./cake/pexels-ivan-samkov-5515577 (1080p).mp4" type="video/mp4" style="z-index: -2;">
+     </body>
+     </html>
